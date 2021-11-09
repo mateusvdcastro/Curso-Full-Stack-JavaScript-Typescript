@@ -3,7 +3,7 @@ let alunos = ['Luiz', 'Maria', 'João']; // Luiza, Eduardo
 alunos = 123;
 
 console.log(typeof alunos);
-console.log(alunos instanceof Array);
+console.log(alunos instanceof Array);  // retorna true se a variável for um array
 
 alunos.push('Luiza');  // adiciona no final do array
 const removido = alunos.pop();  // remove o ultimo

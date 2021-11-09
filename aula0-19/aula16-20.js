@@ -37,3 +37,27 @@ console.log(alunos[50]);  // retorna undefined
 // console.log(alunos);
 // console.log(alunos[0]);
 // console.log(alunos[2]);
+
+console.log("============================================================");
+
+const pessoa1 = {
+    nome: 'Luiz',
+    sobrenome: 'Miranda',
+    idade: 25,
+  
+    fala() {
+      console.log(`A minha idade atual é ${this.idade}.`);
+    },
+  
+    incrementaIdade() {
+      this.idade++;
+    }
+  };
+  
+  pessoa1.fala();
+  pessoa1.incrementaIdade();
+  pessoa1.fala();
+  pessoa1.incrementaIdade();
+  pessoa1.fala();
+  pessoa1.incrementaIdade();
+  pessoa1.fala();
